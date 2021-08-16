@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         if #available(iOS 13.0, *) {
             self.button.addTarget(self, action: #selector(self.presentLarkController), for: .touchUpInside)
         }
+        print("testing")
     }
     
     @available(iOS 13.0, *)
